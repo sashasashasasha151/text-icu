@@ -1,4 +1,4 @@
-{-# LANGUAGE BlockArguments, ImportQualifiedPost, RankNTypes, BangPatterns, ForeignFunctionInterface, RecordWildCards #-}
+{-# LANGUAGE BlockArguments, RankNTypes, BangPatterns, ForeignFunctionInterface, RecordWildCards #-}
 -- |
 -- Module      : Data.Text.ICU.Locale
 -- Copyright   : (c) 2021 Torsten Kemps-Benedix

@@ -1,4 +1,4 @@
-{-# LANGUAGE EmptyDataDecls, BlockArguments, ImportQualifiedPost, CPP, DeriveDataTypeable, ForeignFunctionInterface #-}
+{-# LANGUAGE EmptyDataDecls, BlockArguments, CPP, DeriveDataTypeable, ForeignFunctionInterface #-}
 -- |
 -- Module      : Data.Text.ICU.Normalize
 -- Copyright   : (c) 2009, 2010 Bryan O'Sullivan

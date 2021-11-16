@@ -1,4 +1,4 @@
-{-# LANGUAGE EmptyDataDecls, BlockArguments, ImportQualifiedPost, RankNTypes, BangPatterns, ForeignFunctionInterface, RecordWildCards #-}
+{-# LANGUAGE EmptyDataDecls, BlockArguments, RankNTypes, BangPatterns, ForeignFunctionInterface, RecordWildCards #-}
 -- |
 -- Module      : Data.Text.ICU.NumberFormatter
 -- Copyright   : (c) 2021 Torsten Kemps-Benedix

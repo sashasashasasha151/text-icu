@@ -1,4 +1,4 @@
-{-# LANGUAGE EmptyDataDecls, BlockArguments, ImportQualifiedPost, RankNTypes, BangPatterns, ForeignFunctionInterface, RecordWildCards #-}
+{-# LANGUAGE EmptyDataDecls, BlockArguments, RankNTypes, BangPatterns, ForeignFunctionInterface, RecordWildCards #-}
 -- |
 -- Module      : Data.Text.ICU.DateFormatter
 -- Copyright   : (c) 2021 Torsten Kemps-Benedix
@@ -31,7 +31,7 @@ module Data.Text.ICU.DateFormatter
 import Control.Monad (forM)
 import Data.Int (Int32)
 import Data.Text (Text)
-import Data.Text qualified as T
+import qualified Data.Text as T
 import Data.Text.Foreign (useAsPtr, fromPtr)
 import Data.Text.ICU.Error.Internal (UErrorCode, handleError, handleOverflowError)
 import Data.Text.ICU.Internal (LocaleName(..), UChar, withLocaleName)
